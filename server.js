@@ -14,10 +14,15 @@ mongoose.connect('mongodb+srv://namal:namal2000@store.ckvt8.mongodb.net/myFirstD
     console.log("MongoDB connected");
 });
 
+app.get('/', (req, res) =>{
+  res.send("<b> Store Backend API </b>")
+});
+
 //http://localhost:5000/api/store
 app.use("/api/store",require("./routes/Store.routes"));
 
-
+//cerating port
 app.listen(PORT, () => {
   console.log(`Server is running on port number:${PORT}`);
+
 });
