@@ -16,7 +16,6 @@ mongoose.connect('mongodb+srv://namal:namal2000@store.ckvt8.mongodb.net/myFirstD
 
 app.get('/', (req, res) =>{
   res.send("<b> Store Backend API </b>")
-
 });
 
 //http://localhost:5000/api/store
