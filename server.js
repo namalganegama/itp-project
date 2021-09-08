@@ -24,4 +24,5 @@ app.use("/api/store",require("./routes/Store.routes"));
 //cerating port
 app.listen(PORT, () => {
   console.log(`Server is running on port number:${PORT}`);
+
 });
