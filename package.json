@@ -4,7 +4,7 @@
   "description": "store management backend",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "Namal Pathum",
   "license": "ISC",
